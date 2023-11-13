@@ -113,7 +113,7 @@ function showGame() {
     if (document.getElementById('syllabics')) {
       const syllabics = document.getElementById('syllabics');
       let text = SYLLABLES[getRandomNumber(0, SYLLABLES.length - 1)];
-      for (let i = 0; i <= 9; i += 1) {
+      for (let i = 0; i <= 10; i += 1) {
         text += `-${SYLLABLES[getRandomNumber(0, SYLLABLES.length - 1)]}`;
       }
       syllabics.textContent = text;
