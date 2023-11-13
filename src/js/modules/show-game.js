@@ -395,7 +395,7 @@ function showGame() {
         const screen = addScreen(DOM.containerGame);
         addMarkup(screen, createStartScreen());
         addFunctionaliatyStartScreen();
-        time = 15000;
+        time = 12;
         sound = 1;
       });
     }
