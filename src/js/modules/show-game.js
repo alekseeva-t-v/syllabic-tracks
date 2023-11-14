@@ -3,7 +3,7 @@ import { SYLLABLES, DEFEAT, VICTORY } from './settings';
 import showSlider from './slider';
 
 function showGame() {
-  let time = 12;
+  let time = 10;
   let sound = 1;
   let isVictory = false;
   let timerId;
@@ -180,9 +180,9 @@ function showGame() {
                   До начала испытания всего один шаг. Выбери подходящие настройки.
                   <h3 class="game__subtitle">Скорость чтения строки:</h3>
                   <div class="game__buttons-list" id="buttons-list-time">
-                    <button class="game__button--setting button" data-time="16"><span class="icon icon--bike"></span>Медленно</button>
-                    <button class="game__button--setting button button--active" data-time="12"><span class="icon icon--car"></span>Средне</button>
-                    <button class="game__button--setting button" data-time="8"><span class="icon icon--rocket"></span>Быстро</button>
+                    <button class="game__button--setting button" data-time="14"><span class="icon icon--bike"></span>Медленно</button>
+                    <button class="game__button--setting button button--active" data-time="10"><span class="icon icon--car"></span>Средне</button>
+                    <button class="game__button--setting button" data-time="6"><span class="icon icon--rocket"></span>Быстро</button>
                   </div>
                   <div class="game__sound-inner">
                     <h3 class="game__subtitle">Звук:</h3>
@@ -395,7 +395,7 @@ function showGame() {
         const screen = addScreen(DOM.containerGame);
         addMarkup(screen, createStartScreen());
         addFunctionaliatyStartScreen();
-        time = 12;
+        time = 10;
         sound = 1;
       });
     }
